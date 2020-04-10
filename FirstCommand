@@ -1,0 +1,38 @@
+const Discord = require('discord.js')
+const bot = new Discord.Client()
+
+bot.on('ready', function () {
+  console.log("Je suis connecté !")
+})
+
+bot.login('')
+bot.on('message', message => {   
+  if (message.content === 'as!ping') {
+message.reply("Pong!Bravo,j'ai perdu ma balle,on recommence ! ") } } )
+bot.on('message', message => {   
+  if (message.content === 'as!serveur') {
+message.reply('REJOIGNEZ MOI DANS MON SERVEUR: https://discord.gg/V549eME ! ') } } )
+
+bot.on('message', message => {   
+  if (message.content === 'as!serveurs') {
+message.reply('REJOIGNEZ LES SERVEURS CONSEILLERS: https://discord.gg/V549eME  , https://discord.gg/93ayheX ! ') } } )
+
+bot.on('message', message => {   
+  if (message.content === 'as!invite') {
+message.reply('Inviter-Moi dans votre serveur pour vous aider pour les permissions: https://discordapp.com/oauth2/authorize?client_id=695978813972152330&scope=bot&permissions=805314622 ! ') } } )
+                                
+bot.on('message', message => {   
+  if (message.content === 'Dry!DryssixYT') {
+message.reply('Abonne-toi dans la chaîne youtube à Dryssix: https://www.youtube.com/channel/! ') } } )
+bot.on('message', message => {   
+  if (message.content === 'Dry!CrimoreYT') {
+message.reply('Abonne-toi dans la chaîne youtube à Crimore: https://www.youtube.com/channel/ ! ') } } )                               
+bot.on('message', message => {   
+  if (message.content === 'Dry!DryssixTwitch') {
+message.reply('Abonne-toi dans la chaîne youtube à Dryssix: https://www.twitch.tv/ ! ') } } )
+bot.on('message', message => {   
+  if (message.content === 'Dry!CrimoreTwitch') {
+message.reply('Abonne-toi dans la chaîne youtube à Crimore: https://www.twitch.tv/ ! ') } } )
+bot.on('message', message => {   
+  if (message.content === 'Dry!Serveur') {
+message.reply('Rejoins le serveur de ses meilleurs youtubeurs: https://discord.gg/dFQznPj ! ') } } )
